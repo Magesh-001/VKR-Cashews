@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-container": "#9c7e73", "tertiary": "#000201", "on-surface": "#1c1c19", "error-container": "#ffdad6", "inverse-primary": "#e2bfb2", "secondary-container": "#fdce6d", "on-surface-variant": "#4f4440", "inverse-on-surface": "#f3f0eb", "inverse-surface": "#31302d", "surface-container-highest": "#e5e2dd", "error": "#ba1a1a", "on-tertiary-container": "#6b8d6f", "tertiary-fixed": "#c7ecca", "secondary": "#7a5900", "on-secondary-fixed-variant": "#5d4200", "on-primary-fixed-variant": "#5a4137", "outline": "#817470", "on-secondary": "#ffffff", "outline-variant": "#d3c3be", "tertiary-container": "#02220d", "on-secondary-container": "#775600", "surface-container": "#f0ede9", "surface-dim": "#dcdad5", "background": "#fcf9f4", "on-primary-fixed": "#2a170f", "on-error-container": "#93000a", "primary": "#070100", "on-secondary-fixed": "#261900", "surface-container-low": "#f6f3ee", "on-tertiary": "#ffffff", "secondary-fixed-dim": "#eec061", "on-error": "#ffffff", "on-primary": "#ffffff", "secondary-fixed": "#ffdea3", "surface-variant": "#e5e2dd", "primary-fixed": "#ffdbcd", "surface-bright": "#fcf9f4", "on-tertiary-fixed": "#02210c", "on-background": "#1c1c19", "surface-container-high": "#ebe8e3", "primary-fixed-dim": "#e2bfb2", "surface": "#fcf9f4", "surface-container-lowest": "#ffffff", "primary-container": "#2b1810", "surface-tint": "#73584e", "tertiary-fixed-dim": "#abd0af", "on-tertiary-fixed-variant": "#2e4e35" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "gutter": "1.5rem", "gutter-mobile": "1rem", "space-sm": "0.75rem", "space-lg": "2rem", "space-md": "1.25rem", "space-xs": "0.375rem", "margin": "3rem", "space-xl": "3.5rem", "margin-mobile": "1.25rem" }, "fontFamily": { "headline-xl-mobile": [ "Playfair Display" ], "title-lg": [ "Playfair Display" ], "body-md": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "body-lg": [ "Plus Jakarta Sans" ], "headline-xl": [ "Playfair Display" ], "label-lg": [ "Plus Jakarta Sans" ], "headline-lg-mobile": [ "Playfair Display" ], "headline-md": [ "Playfair Display" ], "title-md": [ "Plus Jakarta Sans" ], "body-sm": [ "Plus Jakarta Sans" ], "grade-display": [ "Playfair Display" ], "headline-lg": [ "Playfair Display" ] }, "fontSize": { "headline-xl-mobile": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "title-lg": [ "20px", { "lineHeight": "28px", "fontWeight": "600" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "headline-xl": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.08em", "fontWeight": "700" } ], "headline-lg-mobile": [ "26px", { "lineHeight": "34px", "letterSpacing": "0em", "fontWeight": "600" } ], "headline-md": [ "24px", { "lineHeight": "32px", "fontWeight": "600" } ], "title-md": [ "16px", { "lineHeight": "24px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "grade-display": [ "22px", { "lineHeight": "26px", "letterSpacing": "0.04em", "fontWeight": "700" } ], "headline-lg": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-md shadow-[0_2px_12px_rgba(43,24,16,0.06)]"><div class="h-20 max-w-7xl mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm"><a class="flex items-center gap-space-xs" data-path="home" href="#"><img alt="VKR Premium Cashew &amp; Dry Fruits Emblem.png" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W0rZK4odkkjFcdpIGWTpnv5Izox8hMym6zYL5Bhg6Q-cA7ePC7VHlNqKvDf0Z0FrynXjeT9svAPYm-0sHAB3Dn6LNgy17aTiSfXE7OJZfjet-Tny8V0t9noB1sDhwo3GlGQ3y9iRXKNFcX6tnjh3NmLSzzum8yWfIAxboM0kNh7OVo2Mo7fcL8K-7WlNkfmHyWFHzqP_K9T2BL-SZo6DBmQ3mYETUSMqNn3DQ0JRPKxc82mS0vP972NnjYJSR8E0aprxgroFkjQw"/><div class="flex flex-col ml-space-xs"><span class="font-title-lg text-title-lg font-bold tracking-tight text-primary leading-tight">VKR</span><span class="font-label-md text-label-md tracking-wider text-secondary uppercase font-semibold">Cashew &amp; Dry Fruits</span></div></a><div class="hidden sm:flex flex-col border-l border-outline-variant/60 pl-space-sm ml-space-xs"><span class="font-label-md text-label-md text-secondary font-bold tracking-widest uppercase">50 Years</span><span class="font-body-sm text-body-sm text-on-surface-variant font-medium">1976–2026</span></div></div><nav class="hidden xl:flex items-center gap-gutter" data-active-classes="text-secondary font-semibold underline decoration-secondary decoration-2 underline-offset-8"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="home" href="#">Home</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="about-us" href="#">About Us</a><a aria-current="page" class="transition-colors py-2 text-secondary font-semibold underline decoration-secondary decoration-2 underline-offset-8" data-path="cashews" href="#">Cashews</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="dry-fruits" href="#">Dry Fruits</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="wholesale" href="#">Wholesale</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="contact-us" href="#">Contact Us</a></nav><div class="flex items-center gap-space-sm"><button aria-label="Search Products" class="p-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors flex items-center justify-center" onclick="document.getElementById('search-overlay').classList.remove('hidden')" type="button"><span class="material-symbols-outlined text-[22px]">search</span></button><a class="hidden lg:flex items-center gap-space-xs text-on-surface font-title-md text-title-md hover:text-secondary transition-colors px-2 py-1" href="tel:8838885921"><span class="material-symbols-outlined text-[20px] text-secondary">call</span><span class="font-semibold">8838885921</span></a><a class="hidden md:inline-flex items-center gap-space-xs px-space-md py-2 bg-primary-container text-on-primary font-label-lg text-label-lg rounded-lg shadow-sm hover:bg-primary transition-colors" href="https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20your%20products." rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px] text-secondary-fixed">chat</span><span>WhatsApp Enquiry</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Editorial Masthead / Header Section -->
+<section class="relative w-full bg-surface-container-low overflow-hidden py-space-xl">
+<div class="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-secondary-fixed/20 blur-3xl pointer-events-none"></div>
+<div class="absolute -left-20 bottom-0 w-80 h-80 rounded-full bg-primary-fixed/20 blur-2xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin relative z-10">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg">
+<div class="max-w-3xl space-y-space-sm">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container text-secondary">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span class="font-label-md text-label-md uppercase tracking-widest font-semibold">Panruti Heritage Standard • Estd 1976</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">
+            Premium Cashew Grades
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Explore our carefully selected range of cashew grades, hand-sorted for uniform size, moisture perfection, and immaculate visual elegance. Suitable for royal retail, corporate gifting, wholesale, and export bulk requirements.
+          </p>
+</div>
+<!-- Quick Heritage Metric Card -->
+<div class="bg-surface p-space-md rounded-xl shadow-md flex items-center gap-space-md lg:self-center">
+<div class="w-14 h-14 rounded-full bg-primary-container text-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[28px]">workspace_premium</span>
+</div>
+<div>
+<div class="font-headline-md text-headline-md text-primary font-bold">50 Years</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Panruti Quality Benchmark • ISO Certified Packaging</div>
+</div>
+</div>
+</div>
+<!-- Filter Controls & Grade Search Bar -->
+<div class="mt-space-xl flex flex-col md:flex-row items-center justify-between gap-space-md bg-surface p-space-sm rounded-xl shadow-sm">
+<div class="flex items-center gap-2 w-full md:w-auto overflow-x-auto pb-1 md:pb-0" id="filter-buttons">
+<button class="filter-btn active-filter px- space-md py-2.5 rounded-lg font-label-lg text-label-lg transition-all bg-primary-container text-on-primary font-semibold shadow-sm" onclick="filterGrades('all', this)" type="button">
+            All Grades (6)
+          </button>
+<button class="filter-btn px-space-md py-2.5 rounded-lg font-label-lg text-label-lg transition-all bg-surface-container-low text-on-surface hover:bg-surface-container" onclick="filterGrades('whole', this)" type="button">
+            Whole Cashews (4)
+          </button>
+<button class="filter-btn px-space-md py-2.5 rounded-lg font-label-lg text-label-lg transition-all bg-surface-container-low text-on-surface hover:bg-surface-container" onclick="filterGrades('pieces', this)" type="button">
+            Cashew Pieces (2)
+          </button>
+</div>
+<div class="flex items-center gap-3 w-full md:w-auto justify-end">
+<span class="font-body-sm text-body-sm text-on-surface-variant hidden lg:inline">Direct Desk:</span>
+<a class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-surface-container rounded-lg text-on-surface hover:text-secondary font-title-md text-title-md transition-colors" href="tel:8838885921">
+<span class="material-symbols-outlined text-[18px] text-secondary">call</span>
+<span>8838885921</span>
+</a>
+<a class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-surface-container rounded-lg text-on-surface hover:text-secondary font-title-md text-title-md transition-colors" href="tel:9345020801">
+<span class="material-symbols-outlined text-[18px] text-secondary">call</span>
+<span>9345020801</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Catalog Grid Section -->
+<section class="w-full py-space-xl max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="catalog-grid">
+<!-- 1. W180 King Cashew -->
+<article class="grade-card group relative bg-surface-container-lowest rounded-xl shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden" data-category="whole">
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Macro studio photograph of gigantic pristine white W180 king cashew kernels arranged artistically on polished dark walnut timber, warm cinematic directional lighting highlighting pristine kidney curl and creamy smooth texture with golden reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCddXDttEzsTIiSYjerbUtB1oYKqZ1vuoEdVnu5cSJGyD5RttAwAiz2t1UWq-3-SaS9Hvc65jBTYHA7wOfPz-8n18F-Y8MVRqooPvZuqmvKbodygaQQLsSkvhwJkU3DuPUlNKyjwS_3XpXp8V2GIKSGGIWUpk0X3uF41eWc0ptGH0f4pprapGV8y2ly0Fdnxu4BXp1yX2esePgzE9QDJHK21TPizjadtT-EuYqihuL7cC4xSS4s-LYQ"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded bg-primary-container text-secondary-fixed font-label-md text-label-md font-bold tracking-wider uppercase">Jumbo King Cashew</span>
+<span class="px-2 py-1 rounded bg-secondary/90 text-on-secondary font-label-md text-label-md font-medium">Export Standard</span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full text-on-surface font-label-md text-label-md shadow-sm">
+            Count: 170–180 / lb
+          </div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-baseline justify-between">
+<h2 class="font-headline-md text-headline-md text-primary font-bold">W-180 Grade</h2>
+<span class="font-label-md text-label-md text-secondary font-semibold uppercase">Super Jumbo</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+              Large premium whole cashews selected for quality and appearance. Known as the King of Cashews, offering immense visual prestige and rich buttery flavor.
+            </p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg space-y-2">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Kernel Uniformity:</span>
+<span class="font-semibold text-on-surface">99.8% Whole Kernel</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Packaging Option:</span>
+<span class="font-semibold text-on-surface">Nitrogen Flush / Tin</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Pricing:</span>
+<span class="font-title-md text-title-md text-secondary font-bold">Price on Enquiry</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-2 pt-2">
+<button class="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface rounded-lg font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1" onclick="openDetailsModal('W-180 Jumbo King Cashew', '170–180 kernels/lb', 'King of Cashews, hand-selected for luxurious hampers and five-star culinary dessert toppings. Pure ivory hue, rich oil content, zero broken kernels.', 'Nitrogen vacuum pack 10kg, 20kg bulk tin, 500g pouch', 'https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20W180%20Cashews.%20Please%20share%20the%20best%20price%20and%20available%20quantities.')" type="button">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>View Details</span>
+</button>
+<a class="w-full py-2.5 px-3 bg-primary-container hover:bg-primary text-on-primary rounded-lg font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1" href="https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20W180%20Cashews.%20Please%20share%20the%20best%20price%20and%20available%20quantities." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">chat</span>
+<span>Get Best Price</span>
+</a>
+</div>
+</div>
+</article>
+<!-- 2. W240 Premium Large -->
+<article class="grade-card group relative bg-surface-container-lowest rounded-xl shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden" data-category="whole">
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Overhead luxury food photography of whole uniform W240 cashew kernels in a golden antique brass bowl, warm sunlight casting gentle shadows on a natural linen tablecloth, soft depth of field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoRQWBRopp7SUfXeWd3aI-BYCt1x6XWUUuj1Pdl3WMKfG8JzCY4XPyXPuHzn_O0bnVOcMcfQh1Z5GJQvgOWIq67H-572WO52eK1m2hkYtyLdKmxNoLhaHPbB5iDUBfI4xjQuBW8DgZnlKb9chG0e3QWxRApEt9h3H7rSlHWPECs_GzpeVYjHFLM02qWjLODHjHDxZio-abmkMDe6Krb_aWW6-XAkYaq5vkPGQaZWGBdz5iwr0eVKzh"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded bg-surface-container-highest text-on-surface font-label-md text-label-md font-bold tracking-wider uppercase">Premium Whole</span>
+<span class="px-2 py-1 rounded bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md font-medium">Boutique Choice</span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full text-on-surface font-label-md text-label-md shadow-sm">
+            Count: 220–240 / lb
+          </div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-baseline justify-between">
+<h2 class="font-headline-md text-headline-md text-primary font-bold">W-240 Grade</h2>
+<span class="font-label-md text-label-md text-secondary font-semibold uppercase">Large Kernels</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+              Carefully selected whole cashews with excellent taste and quality. Ideal for luxury sweet making, festive gifting hampers, and gourmet retail shelves.
+            </p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg space-y-2">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Kernel Uniformity:</span>
+<span class="font-semibold text-on-surface">Uniform Ivory Kernel</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Bite Profile:</span>
+<span class="font-semibold text-on-surface">Crispy &amp; Rich Nutty Finish</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Pricing:</span>
+<span class="font-title-md text-title-md text-secondary font-bold">Price on Enquiry</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-2 pt-2">
+<button class="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface rounded-lg font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1" onclick="openDetailsModal('W-240 Premium Large Cashews', '220–240 kernels/lb', 'Carefully graded large whole kernels prized by artisanal sweet manufacturers and premium gift packagers for their imposing profile and crunchy texture.', '500g Luxury Pack, 10kg Vacuum, 50kg Master Burlap', 'https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20W240%20Cashews.%20Please%20quote%20bulk%20and%20retail%20pricing.')" type="button">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>View Details</span>
+</button>
+<a class="w-full py-2.5 px-3 bg-primary-container hover:bg-primary text-on-primary rounded-lg font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1" href="https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20W240%20Cashews.%20Please%20quote%20bulk%20and%20retail%20pricing." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">chat</span>
+<span>Get Best Price</span>
+</a>
+</div>
+</div>
+</article>
+<!-- 3. W320 Standard Popular -->
+<article class="grade-card group relative bg-surface-container-lowest rounded-xl shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden" data-category="whole">
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High-resolution commercial product shot of whole W320 standard cashews spilling from a rustic burlap sack onto a clean cream surface, showcasing impeccable grade sorting and clean golden hues" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9ICmKZAF_4HhxoYYBPJMlRBTcUIcTW_pPvcvh8z4jzZ69BIl5CYPp5VOuVg6TSWo1VTgXVEgXaHAWnMHFkYIq7Ws3CXWUsPt5Z8y0wB00ZfIm8p4zSRmUWcAMAEEoKZyuBq8ajlyOxq8iCVbR19UwLuyNfw57MpV6Nd1_cO17LkPTfKuVbIMOf3iVT1z0NLdQFkKtofgVR2lYQHxePTEyQylBmS-X9jl3fvMcJjp8hMNR6lgi97RB"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded bg-secondary text-on-secondary font-label-md text-label-md font-bold tracking-wider uppercase">Most Popular</span>
+<span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface font-label-md text-label-md font-medium">Global Benchmark</span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full text-on-surface font-label-md text-label-md shadow-sm">
+            Count: 300–320 / lb
+          </div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-baseline justify-between">
+<h2 class="font-headline-md text-headline-md text-primary font-bold">W-320 Grade</h2>
+<span class="font-label-md text-label-md text-secondary font-semibold uppercase">Standard Choice</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+              A popular whole cashew grade suitable for a wide range of uses. The global benchmark for everyday consumption, roasting, gifting, and culinary creations.
+            </p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg space-y-2">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Standard:</span>
+<span class="font-semibold text-on-surface">Consistent Benchmark Grading</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Best For:</span>
+<span class="font-semibold text-on-surface">Roasting, Salting &amp; Everyday Nutrition</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Pricing:</span>
+<span class="font-title-md text-title-md text-secondary font-bold">Price on Enquiry</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-2 pt-2">
+<button class="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface rounded-lg font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1" onclick="openDetailsModal('W-320 Popular Premium Cashews', '300–320 kernels/lb', 'The most versatile and universally sought-after cashew grade globally. Ideal for daily snacking, confectioneries, spice roasting, and mass distribution.', '1kg Stand-up Pouch, 11.34kg Tin, 50kg Bags', 'https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20W320%20Cashews.%20Please%20share%20current%20rates%20and%20terms.')" type="button">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>View Details</span>
+</button>
+<a class="w-full py-2.5 px-3 bg-primary-container hover:bg-primary text-on-primary rounded-lg font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1" href="https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20W320%20Cashews.%20Please%20share%20current%20rates%20and%20terms." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">chat</span>
+<span>Get Best Price</span>
+</a>
+</div>
+</div>
+</article>
+<!-- 4. W400 Compact Whole -->
+<article class="grade-card group relative bg-surface-container-lowest rounded-xl shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden" data-category="whole">
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Studio shot of compact whole W400 cashews scattered over a handmade terracotta plate with dried spices in background, rich warm earth tones and sharp focus on small whole kernels" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJ3ac6A73ZLYEqtOIr6ippw3Qh84_2g0i5Q1lCsulyO_GmkBGuDJQV6WTygBervf5rGpQZ-I6WtikNaC4IOrrwfJkACnQ059UN80h3ML2a3hFykiaOqj2ihiWQ-dPgSAQGs_Gt1Hm_DnL8FMOcDj8c87r1olnDy86iB6x-cB9AHIiVGDIkhUqrydhOhJkLFcu0JptedTMT5kdCbbbcQPdzbQf9UCMwETjwa69iB7ny2WfaXoMN26kU"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded bg-surface-container-highest text-on-surface font-label-md text-label-md font-bold tracking-wider uppercase">Compact Whole</span>
+<span class="px-2 py-1 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md font-medium">Economy Grade</span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full text-on-surface font-label-md text-label-md shadow-sm">
+            Count: 380–400 / lb
+          </div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-baseline justify-between">
+<h2 class="font-headline-md text-headline-md text-primary font-bold">W-400 Grade</h2>
+<span class="font-label-md text-label-md text-secondary font-semibold uppercase">Value Whole Nut</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+              Smaller whole cashews offering great taste and value. Perfect for confectionery, commercial bakeries, institutional catering, and high-volume recipes.
+            </p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg space-y-2">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Value Factor:</span>
+<span class="font-semibold text-on-surface">Maximum Whole Nut Yield / kg</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Applications:</span>
+<span class="font-semibold text-on-surface">Bakery, Confectionery &amp; Sweets</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Pricing:</span>
+<span class="font-title-md text-title-md text-secondary font-bold">Price on Enquiry</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-2 pt-2">
+<button class="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface rounded-lg font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1" onclick="openDetailsModal('W-400 Quality Whole Cashews', '380–400 kernels/lb', 'Cost-effective whole kernel offering the authentic Panruti cashew sweetness at a modest price point. Excellent for high-output confectionery kitchens.', '10kg Sealed Pouch, Bulk Master Bag', 'https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20W400%20Cashews.%20Please%20send%20commercial%20pricing.')" type="button">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>View Details</span>
+</button>
+<a class="w-full py-2.5 px-3 bg-primary-container hover:bg-primary text-on-primary rounded-lg font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1" href="https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20W400%20Cashews.%20Please%20send%20commercial%20pricing." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">chat</span>
+<span>Get Best Price</span>
+</a>
+</div>
+</div>
+</article>
+<!-- 5. Cashew Splits (JH) -->
+<article class="grade-card group relative bg-surface-container-lowest rounded-xl shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden" data-category="pieces">
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artisanal food photograph of pristine halved cashew splits arranged in a brass measuring scoop with fragrant cardamom pods nearby, soft neutral warm studio light showing crisp split edges" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbbh_K5oGjikdMaDNlgn4fun9sd-q8wJX6nxysx2PZwINx-iX5uenQexPXECfxnY6eA2jxzMHtiKpbjZMlTkRQUMd-f5bVy0fOb88XsAK_6OJDeute6U_-yNlJosJ4IRVHAEqRrIul6OY0gGKVpYMW_fLkDTIwVyodCyC3-eM0QDvOrLaYKeVQShph6BXARi_cSsmjY7xQFBjOhawZQIqOj8IbFQ-tfo78N49lpt741aUDv1uJhpFp"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded bg-surface-container-highest text-on-surface font-label-md text-label-md font-bold tracking-wider uppercase">Cashew Splits (JH)</span>
+<span class="px-2 py-1 rounded bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md font-medium">Culinary Halves</span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full text-on-surface font-label-md text-label-md shadow-sm">
+            Split Kernels: Natural Halves
+          </div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-baseline justify-between">
+<h2 class="font-headline-md text-headline-md text-primary font-bold">SPLITS (JH)</h2>
+<span class="font-label-md text-label-md text-secondary font-semibold uppercase">Cooking Grade</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+              Quality cashew splits suitable for traditional Indian sweets (kaju katli, Mysore pak, halwa), everyday cooking, snacks, and gourmet food preparation.
+            </p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg space-y-2">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Split Integrity:</span>
+<span class="font-semibold text-on-surface">Naturally Halved • Dust Free</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Primary Use:</span>
+<span class="font-semibold text-on-surface">Kaju Katli, Halwa &amp; Garnishes</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Pricing:</span>
+<span class="font-title-md text-title-md text-secondary font-bold">Price on Enquiry</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-2 pt-2">
+<button class="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface rounded-lg font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1" onclick="openDetailsModal('Cashew Splits (JH Halves)', 'Clean natural halves', 'Hand-separated kernel splits without chips or fines. Absorbs ghee and syrups quickly, making it the premier choice for traditional sweet manufacturers.', '5kg Food-grade Pouch, 20kg Master Carton', 'https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20Cashew%20Splits%20(JH).%20Please%20provide%20rates.')" type="button">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>View Details</span>
+</button>
+<a class="w-full py-2.5 px-3 bg-primary-container hover:bg-primary text-on-primary rounded-lg font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1" href="https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20Cashew%20Splits%20(JH).%20Please%20provide%20rates." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">chat</span>
+<span>Get Best Price</span>
+</a>
+</div>
+</div>
+</article>
+<!-- 6. WSP Whole Scorched Pieces -->
+<article class="grade-card group relative bg-surface-container-lowest rounded-xl shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden" data-category="pieces">
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Culinary close up of clean cashew pieces WSP in an earthenware bowl, natural daylight highlighting golden tinged scorched pieces, warm rustic bakery setup background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYvyPsXNY43-z7w1vndtTEhwYToAmWr_MWmIHLFw0HQmWkFb7RYZpMLC8GJvSbQ0hliF_VDuJAx8fY_DOnQYtBqUcIKzyyH7ChYIUhuUwN3aPBpG9VyWMW8EZRTlAuTiebtl_n-3m45cGcBYGL26T_2gnX6n7FzFohmkv9m_L_ZPg_h0iJRrfN_v39yqF1qqM86qY1UU4KLcUbcl9nuYkehuYNk-A5G8jd-5swXsoQ_cHdHhUuCUUZ"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded bg-surface-container-highest text-on-surface font-label-md text-label-md font-bold tracking-wider uppercase">Cashew Pieces (WSP)</span>
+<span class="px-2 py-1 rounded bg-on-tertiary-container text-surface font-label-md text-label-md font-medium">Gravy &amp; Paste Grade</span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full text-on-surface font-label-md text-label-md shadow-sm">
+            Sorting: Sifted Uniform Pieces
+          </div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-baseline justify-between">
+<h2 class="font-headline-md text-headline-md text-primary font-bold">WSP Grade</h2>
+<span class="font-label-md text-label-md text-secondary font-semibold uppercase">Selected Pieces</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+              Selected cashew pieces suitable for culinary applications, rich gravies, nut purees, cookie baking, ice creams, and bulk institutional kitchen food preparations.
+            </p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg space-y-2">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Aroma &amp; Moisture:</span>
+<span class="font-semibold text-on-surface">Roast Fragrance • Moisture &lt; 5%</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Primary Use:</span>
+<span class="font-semibold text-on-surface">Mughlai Gravy, Ice Cream &amp; Pastes</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Pricing:</span>
+<span class="font-title-md text-title-md text-secondary font-bold">Price on Enquiry</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-2 pt-2">
+<button class="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface rounded-lg font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1" onclick="openDetailsModal('WSP (Cashew Pieces)', 'Sifted clean pieces', 'Cost-effective cashew pieces sorted from whole kernels during processing. Uncompromised nutritional value and natural cashew creaminess.', '10kg Pack, 25kg / 50kg Bags for HoReCa', 'https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20WSP%20Cashew%20Pieces.%20Please%20share%20bulk%20quotes.')" type="button">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>View Details</span>
+</button>
+<a class="w-full py-2.5 px-3 bg-primary-container hover:bg-primary text-on-primary rounded-lg font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1" href="https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20WSP%20Cashew%20Pieces.%20Please%20share%20bulk%20quotes." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">chat</span>
+<span>Get Best Price</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Educational Grading Guide Section -->
+<section class="w-full bg-surface-container-high py-space-xl my-space-md">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin space-y-space-xl">
+<div class="text-center max-w-3xl mx-auto space-y-space-xs">
+<span class="font-label-md text-label-md text-secondary font-bold tracking-widest uppercase">Expert Buyer's Knowledge</span>
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold tracking-tight">Understanding Cashew Grading &amp; Size Scale</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          In international cashew grading, the letter “W” stands for “White Whole” and the subsequent numeral signifies the average kernel count per pound (453.6 grams). Smaller numbers indicate larger, rarer kernels.
+        </p>
+</div>
+<!-- Visual Size Scale Interactive / Comparison Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<div class="bg-surface rounded-xl p-space-md shadow-sm space-y-space-sm flex flex-col items-center text-center">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center p-3 relative">
+<!-- Relative scale SVG indicator -->
+<svg class="w-16 h-16 text-secondary" fill="currentColor" viewbox="0 0 100 100">
+<ellipse cx="50" cy="50" rx="38" ry="24" transform="rotate(-25 50 50)"></ellipse>
+</svg>
+<span class="absolute -bottom-1 font-label-md text-label-md px-2 py-0.5 bg-primary-container text-secondary-fixed rounded">Largest</span>
+</div>
+<div class="space-y-1">
+<h3 class="font-headline-md text-headline-md text-primary font-bold">W-180</h3>
+<p class="font-label-md text-label-md text-secondary font-semibold">170 – 180 Kernels / lb</p>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            The rarest 2-3% of every harvest. Monumental size, highest oil balance, pristine crunch. Reserved for VIP gifting.
+          </p>
+</div>
+<div class="bg-surface rounded-xl p-space-md shadow-sm space-y-space-sm flex flex-col items-center text-center">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center p-3 relative">
+<svg class="w-14 h-14 text-secondary" fill="currentColor" viewbox="0 0 100 100">
+<ellipse cx="50" cy="50" rx="32" ry="20" transform="rotate(-25 50 50)"></ellipse>
+</svg>
+<span class="absolute -bottom-1 font-label-md text-label-md px-2 py-0.5 bg-surface-container-highest text-on-surface rounded">Large</span>
+</div>
+<div class="space-y-1">
+<h3 class="font-headline-md text-headline-md text-primary font-bold">W-240</h3>
+<p class="font-label-md text-label-md text-secondary font-semibold">220 – 240 Kernels / lb</p>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Imposing visual appeal with accessible bulk supply. Ideal for elite bakeries and boutique confectionery packaging.
+          </p>
+</div>
+<div class="bg-surface rounded-xl p-space-md shadow-sm space-y-space-sm flex flex-col items-center text-center">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center p-3 relative">
+<svg class="w-12 h-12 text-secondary" fill="currentColor" viewbox="0 0 100 100">
+<ellipse cx="50" cy="50" rx="26" ry="16" transform="rotate(-25 50 50)"></ellipse>
+</svg>
+<span class="absolute -bottom-1 font-label-md text-label-md px-2 py-0.5 bg-secondary text-on-secondary rounded">Benchmark</span>
+</div>
+<div class="space-y-1">
+<h3 class="font-headline-md text-headline-md text-primary font-bold">W-320</h3>
+<p class="font-label-md text-label-md text-secondary font-semibold">300 – 320 Kernels / lb</p>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            The world's standard cashew grade. Balances price and stature perfectly for roasting, salting, and gourmet snack brands.
+          </p>
+</div>
+<div class="bg-surface rounded-xl p-space-md shadow-sm space-y-space-sm flex flex-col items-center text-center">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center p-3 relative">
+<svg class="w-10 h-10 text-secondary" fill="currentColor" viewbox="0 0 100 100">
+<ellipse cx="50" cy="50" rx="20" ry="12" transform="rotate(-25 50 50)"></ellipse>
+</svg>
+<span class="absolute -bottom-1 font-label-md text-label-md px-2 py-0.5 bg-surface-container-highest text-on-surface rounded">Economy</span>
+</div>
+<div class="space-y-1">
+<h3 class="font-headline-md text-headline-md text-primary font-bold">W-400</h3>
+<p class="font-label-md text-label-md text-secondary font-semibold">380 – 400 Kernels / lb</p>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Smaller full whole kernels providing high count per kilogram. Superior economy without breaking or crushing the whole kernel.
+          </p>
+</div>
+</div>
+<!-- Quality Standards Visual Breakdown -->
+<div class="bg-surface rounded-xl p-space-lg shadow-sm">
+<h3 class="font-title-lg text-title-lg text-primary font-bold mb-space-md text-center">
+          VKR Purity &amp; Moisture Integrity Matrix
+        </h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-low text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">water_drop</span>
+</div>
+<div class="space-y-1">
+<h4 class="font-title-md text-title-md font-bold text-primary">Moisture Controlled &lt; 5%</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Scientifically oven-cured in Panruti processing chambers to inhibit mold growth and preserve raw kernel snap for 12+ months.
+              </p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-low text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">center_focus_strong</span>
+</div>
+<div class="space-y-1">
+<h4 class="font-title-md text-title-md font-bold text-primary">Zero Chemical Bleaching</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Naturally steam-blanched to yield an authentic ivory tint without sulphur bleaching or toxic synthetic brightening agents.
+              </p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-low text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">air</span>
+</div>
+<div class="space-y-1">
+<h4 class="font-title-md text-title-md font-bold text-primary">Nitrogen Flushed Tins</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Export batches packed under inert nitrogen atmospheres to avoid rancidity and protect fragile whole kernel shape during transport.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Institutional Wholesale / Container Inquiry CTA Strip -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl">
+<div class="bg-primary-container text-inverse-on-surface rounded-xl p-space-lg lg:p-space-xl relative overflow-hidden shadow-xl">
+<div class="absolute -right-10 -bottom-10 w-64 h-64 rounded-full bg-secondary/20 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-space-lg">
+<div class="space-y-space-xs max-w-2xl text-center lg:text-left">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-secondary-fixed/10 text-secondary-fixed text-label-md font-label-md uppercase font-semibold">
+<span class="material-symbols-outlined text-[16px]">local_shipping</span>
+<span>Commercial Supply Desk</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-surface-bright tracking-tight">
+            Requiring Bulk Sacks or Full Container Loads?
+          </h2>
+<p class="font-body-md text-body-md text-outline-variant leading-relaxed">
+            We supply 10kg tins, 25kg vacuum packaging, and 50kg jute burlap bags directly from our Panruti processing mills to institutional confectioners, supermarkets, and international ports.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-sm shrink-0 w-full sm:w-auto">
+<a class="w-full sm:w-auto px-space-lg py-3.5 bg-secondary hover:bg-secondary-fixed hover:text-on-secondary-fixed text-on-secondary rounded-lg font-label-lg text-label-lg font-bold text-center transition-all shadow-md" data-path="wholesale" href="#">
+            Visit Wholesale Portal
+          </a>
+<a class="w-full sm:w-auto px-space-lg py-3.5 bg-surface-container-highest/20 hover:bg-surface-container-highest/30 text-surface-bright rounded-lg font-label-lg text-label-lg font-bold text-center transition-all flex items-center justify-center gap-2" href="https://wa.me/918838885921?text=Hello%20VKR%20Agencies,%20we%20have%20an%20institutional%20bulk%20cashew%20requirement.%20Please%20share%20container/bag%20pricing." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px] text-secondary-fixed">chat</span>
+<span>Bulk WhatsApp Desk</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Details Modal -->
+<div class="hidden fixed inset-0 z-50 bg-primary/80 backdrop-blur-sm flex items-center justify-center p-4" id="grade-modal">
+<div class="bg-surface rounded-xl max-w-xl w-full p-space-lg shadow-2xl relative space-y-space-md animate-in fade-in zoom-in-95 duration-200">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-md text-label-md text-secondary font-bold uppercase tracking-wider" id="modal-subtitle">Kernel Specification</span>
+<h3 class="font-headline-md text-headline-md text-primary font-bold mt-1" id="modal-title">Cashew Grade</h3>
+</div>
+<button class="p-1 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" onclick="closeDetailsModal()" type="button">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<div class="space-y-space-sm text-on-surface-variant font-body-md text-body-md">
+<p class="leading-relaxed" id="modal-desc"></p>
+<div class="bg-surface-container-low p-space-sm rounded-lg space-y-2 text-body-sm font-body-sm">
+<div class="flex justify-between">
+<span class="text-on-surface-variant">Grade Count:</span>
+<span class="font-semibold text-on-surface" id="modal-count"></span>
+</div>
+<div class="flex justify-between">
+<span class="text-on-surface-variant">Packaging Available:</span>
+<span class="font-semibold text-on-surface" id="modal-pack"></span>
+</div>
+<div class="flex justify-between">
+<span class="text-on-surface-variant">Inspection:</span>
+<span class="font-semibold text-on-surface">Physical Sample on Request</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="text-body-sm font-body-sm text-on-surface-variant">
+          Call Directly: <a class="font-bold text-primary hover:text-secondary" href="tel:8838885921">8838885921</a>
+</div>
+<a class="px-space-md py-2.5 bg-primary-container hover:bg-primary text-on-primary rounded-lg font-label-lg text-label-lg font-bold transition-colors inline-flex items-center gap-2" href="#" id="modal-wa-link" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px] text-secondary-fixed">chat</span>
+<span>Inquire via WhatsApp</span>
+</a>
+</div>
+</div>
+</div>
+<script>
+    function filterGrades(type, btn) {
+      const cards = document.querySelectorAll('.grade-card');
+      const buttons = document.querySelectorAll('.filter-btn');
+
+      buttons.forEach(b => {
+        b.classList.remove('bg-primary-container', 'text-on-primary', 'font-semibold', 'shadow-sm');
+        b.classList.add('bg-surface-container-low', 'text-on-surface');
+      });
+
+      btn.classList.remove('bg-surface-container-low', 'text-on-surface');
+      btn.classList.add('bg-primary-container', 'text-on-primary', 'font-semibold', 'shadow-sm');
+
+      cards.forEach(card => {
+        const cat = card.getAttribute('data-category');
+        if (type === 'all' || cat === type) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    function openDetailsModal(title, count, desc, packaging, waLink) {
+      document.getElementById('modal-title').textContent = title;
+      document.getElementById('modal-count').textContent = count;
+      document.getElementById('modal-desc').textContent = desc;
+      document.getElementById('modal-pack').textContent = packaging;
+      document.getElementById('modal-wa-link').href = waLink;
+      document.getElementById('grade-modal').classList.remove('hidden');
+    }
+
+    function closeDetailsModal() {
+      document.getElementById('grade-modal').classList.add('hidden');
+    }
+
+    window.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeDetailsModal();
+      }
+    });
+
+    document.getElementById('grade-modal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeDetailsModal();
+      }
+    });
+  </script>
+</div></main><footer class="w-full bg-primary-container text-inverse-on-surface pt-space-xl pb-space-lg shadow-inner"><div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="space-y-space-md"><div class="flex items-center gap-space-xs"><img alt="VKR Premium Cashew &amp; Dry Fruits Emblem.png" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W0rZK4odkkjFcdpIGWTpnv5Izox8hMym6zYL5Bhg6Q-cA7ePC7VHlNqKvDf0Z0FrynXjeT9svAPYm-0sHAB3Dn6LNgy17aTiSfXE7OJZfjet-Tny8V0t9noB1sDhwo3GlGQ3y9iRXKNFcX6tnjh3NmLSzzum8yWfIAxboM0kNh7OVo2Mo7fcL8K-7WlNkfmHyWFHzqP_K9T2BL-SZo6DBmQ3mYETUSMqNn3DQ0JRPKxc82mS0vP972NnjYJSR8E0aprxgroFkjQw"/><span class="font-title-lg text-title-lg font-bold tracking-tight text-surface-bright">VKR CASHEW</span></div><p class="font-body-md text-body-md text-outline-variant leading-relaxed">50 Years of Trust &amp; Quality • Established in 1976.<br/>Premium Quality. Trusted for Generations.</p><div class="inline-block px-space-sm py-1 bg-surface-container-highest/10 border border-secondary-fixed/30 rounded-lg"><span class="font-label-md text-label-md text-secondary-fixed font-semibold tracking-wider uppercase">1976 – 2026 Golden Jubilee</span></div></div><div class="space-y-space-md"><h3 class="font-title-md text-title-md font-bold text-surface-bright tracking-wide uppercase">Cashew Grades</h3><ul class="space-y-space-xs font-body-md text-body-md text-outline-variant"><li><a class="hover:text-secondary-fixed transition-colors" data-path="cashews" href="#">W-180 (King of Cashews)</a></li><li><a class="hover:text-secondary-fixed transition-colors" data-path="cashews" href="#">W-240 (Large Jumbo)</a></li><li><a class="hover:text-secondary-fixed transition-colors" data-path="cashews" href="#">W-320 (Standard Popular)</a></li><li><a class="hover:text-secondary-fixed transition-colors" data-path="cashews" href="#">W-400 (Select Economy)</a></li><li><a class="hover:text-secondary-fixed transition-colors" data-path="cashews" href="#">Cashew Splits (JH)</a></li><li><a class="hover:text-secondary-fixed transition-colors" data-path="cashews" href="#">Cashew Pieces (WSP)</a></li></ul></div><div class="space-y-space-md"><h3 class="font-title-md text-title-md font-bold text-surface-bright tracking-wide uppercase">Gourmet Dry Fruits</h3><ul class="space-y-space-xs font-body-md text-body-md text-outline-variant"><li><a class="hover:text-secondary-fixed transition-colors" data-path="dry-fruits" href="#">California &amp; Mamra Almonds</a></li><li><a class="hover:text-secondary-fixed transition-colors" data-path="dry-fruits" href="#">Kashmiri Walnuts (Akhrot)</a></li><li><a class="hover:text-secondary-fixed transition-colors" data-path="dry-fruits" href="#">Royal Athi Palam (Dried Figs)</a></li><li><a class="hover:text-secondary-fixed transition-colors" data-path="dry-fruits" href="#">Medjool &amp; Arabian Dates</a></li><li><a class="hover:text-secondary-fixed transition-colors" data-path="dry-fruits" href="#">Golden &amp; Black Raisins</a></li><li><a class="hover:text-secondary-fixed transition-colors" data-path="dry-fruits" href="#">Salted Pistachios &amp; Foxnuts</a></li></ul></div><div class="space-y-space-md"><h3 class="font-title-md text-title-md font-bold text-surface-bright tracking-wide uppercase">Direct Locations</h3><div class="space-y-space-xs font-body-sm text-body-sm text-outline-variant"><p class="text-surface-bright font-semibold">Branch Office:</p><p>26, Daily Bazaar, Block-19, Neyveli, Cuddalore</p><p class="text-surface-bright font-semibold mt-2">Manufacturing Unit:</p><p>VKR Agencies, VeerasinganKuppam, Panruti, Cuddalore – 607805</p><p class="text-surface-bright font-semibold mt-2">Direct Lines:</p><p class="flex items-center gap-2"><a class="hover:text-secondary-fixed" href="tel:8838885921">8838885921</a> • <a class="hover:text-secondary-fixed" href="tel:9345020801">9345020801</a></p></div></div></div><div class="pt-space-md border-t border-outline-variant/20 flex flex-col md:flex-row items-center justify-between gap-space-sm text-outline-variant font-body-sm text-body-sm"><p>© 2026 VKR Cashew &amp; Dry Fruits. All Rights Reserved. Five Decades of Pure Excellence.</p><div class="flex items-center gap-space-md"><a class="hover:text-secondary-fixed transition-colors" data-path="wholesale" href="#">Institutional Inquiries</a><a class="hover:text-secondary-fixed transition-colors" data-path="contact-us" href="#">Support &amp; Bulk Orders</a></div></div></div></footer><a aria-label="Chat on WhatsApp" class="fixed bottom-6 right-6 z-40 group flex items-center justify-center p-3.5 bg-emerald-700 hover:bg-emerald-800 text-on-primary rounded-full shadow-[0_8px_24px_rgba(2,34,13,0.35)] transition-all transform hover:scale-105" href="https://wa.me/918838885921?text=Hello%20VKR%20Cashew%20%26%20Dry%20Fruits,%20I%20am%20interested%20in%20your%20products." rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[28px]">chat</span><span class="absolute right-full mr-3 whitespace-nowrap bg-primary-container text-on-primary font-label-md text-label-md px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity shadow-md pointer-events-none">Chat with VKR Specialist</span></a><div class="hidden fixed inset-0 z-50 bg-primary/70 backdrop-blur-sm flex items-start justify-center pt-24 px-4" id="search-overlay"><div class="bg-surface rounded-xl max-w-2xl w-full p-space-md shadow-2xl space-y-space-md"><div class="flex items-center justify-between"><span class="font-title-md text-title-md font-bold text-primary">Instant Catalog Search</span><button class="text-on-surface-variant hover:text-on-surface" onclick="document.getElementById('search-overlay').classList.add('hidden')" type="button"><span class="material-symbols-outlined">close</span></button></div><div class="relative"><input class="w-full bg-surface-container px-4 py-3 rounded-lg text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:ring-1 focus:ring-secondary font-body-md text-body-md" placeholder="Search W180, W240, Almonds, Walnuts, Athi Palam..." type="text"/><span class="material-symbols-outlined absolute right-3 top-3 text-on-surface-variant">search</span></div><div class="flex flex-wrap gap-2 pt-2"><span class="font-label-md text-label-md text-on-surface-variant py-1">Suggested:</span><a class="px-2.5 py-1 bg-surface-container rounded font-label-md text-label-md text-on-surface hover:bg-surface-container-high" data-path="cashews" href="#">W180 Jumbo</a><a class="px-2.5 py-1 bg-surface-container rounded font-label-md text-label-md text-on-surface hover:bg-surface-container-high" data-path="cashews" href="#">W240</a><a class="px-2.5 py-1 bg-surface-container rounded font-label-md text-label-md text-on-surface hover:bg-surface-container-high" data-path="dry-fruits" href="#">Athi Palam</a><a class="px-2.5 py-1 bg-surface-container rounded font-label-md text-label-md text-on-surface hover:bg-surface-container-high" data-path="dry-fruits" href="#">California Almonds</a></div></div></div></body></html>
