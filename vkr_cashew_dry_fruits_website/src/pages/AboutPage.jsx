@@ -24,7 +24,7 @@ export default function AboutPage() {
       icon: 'inventory_2',
     },
     {
-      year: '2026',
+      year: 'Now',
       title: '50 Years',
       desc: 'Celebrating five decades of trust, purity and sovereign quality.',
       icon: 'celebration',
@@ -42,7 +42,7 @@ export default function AboutPage() {
                 workspace_premium
               </span>
               <span className="font-label-md text-label-md text-secondary font-bold tracking-widest uppercase">
-                1976 – 2026 Golden Jubilee
+                1976 – Golden Jubilee
               </span>
             </div>
             <h1 className="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">
@@ -50,7 +50,7 @@ export default function AboutPage() {
               <span className="italic font-normal text-secondary">Quality &amp; Trust</span>
             </h1>
             <p className="font-title-lg text-title-lg text-on-surface-variant max-w-2xl font-normal leading-relaxed">
-              Established in 1976 | Celebrating 1976 — 2026
+              Established in 1976 | Celebrating Our Heritage
             </p>
             <p className="font-body-lg text-body-lg text-on-surface max-w-xl leading-relaxed">
               Cultivating generations of culinary perfection from the heart of Tamil Nadu&apos;s cashew
@@ -101,7 +101,7 @@ export default function AboutPage() {
                   Golden Jubilee
                 </span>
                 <span className="font-body-sm text-body-sm text-on-primary-container">
-                  1976 – 2026
+                  1976 – Present
                 </span>
               </div>
             </div>
@@ -268,14 +268,14 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Section: OUR JOURNEY (1976 - 2026) */}
+      {/* Section: OUR JOURNEY (1976 - Present) */}
       <section className="max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl" id="journey">
         <div className="text-center max-w-2xl mx-auto space-y-space-xs mb-space-xl">
           <span className="font-label-md text-label-md text-secondary font-bold tracking-widest uppercase">
             Chronicle of Excellence
           </span>
           <h2 className="font-headline-lg text-headline-lg text-primary font-bold">
-            Our Journey (1976 – 2026)
+            Our Journey (1976 – Present)
           </h2>
           <p className="font-body-md text-body-md text-on-surface-variant">
             Step through fifty years of sustained commitment, relationships, and regional
@@ -505,3 +505,4 @@ export default function AboutPage() {
     </div>
   )
 }
+
