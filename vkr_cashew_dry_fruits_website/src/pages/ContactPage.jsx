@@ -205,7 +205,7 @@ export default function ContactPage() {
                   </a>
                   <a
                     className="flex items-center justify-center gap-1.5 py-2.5 px-3 bg-tertiary-container text-on-primary rounded-lg font-label-md text-label-md font-bold shadow hover:bg-primary transition-colors"
-                    href={`https://wa.me/919345020801?text=${WHATSAPP_DEFAULT_MSG}`}
+                    href={`https://wa.me/919788563255?text=${WHATSAPP_DEFAULT_MSG}`}
                     rel="noopener noreferrer"
                     target="_blank"
                   >
