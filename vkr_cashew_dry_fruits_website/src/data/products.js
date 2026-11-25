@@ -2,7 +2,7 @@
 
 export const WHATSAPP_NUMBER = '918838885921'
 export const PHONE_1 = '8838885921'
-export const PHONE_2 = '9345020801'
+export const PHONE_2 = '9788563255'
 export const EMAIL = 'vkrcashews@gmail.com'
 
 export const WHATSAPP_DEFAULT_MSG = encodeURIComponent(
@@ -504,3 +504,4 @@ export const searchProducts = (query) => {
     )
   })
 }
+
